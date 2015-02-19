@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-easy-switch'
+      'command': 'atom-easy-switch:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-easy-switch'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-easy-switch:toggle'
+        }
+      ]
+    ]
+  }
+]

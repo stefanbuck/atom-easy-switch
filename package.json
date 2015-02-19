@@ -1,0 +1,19 @@
+{
+  "name": "atom-easy-switch",
+  "main": "./lib/atom-easy-switch",
+  "version": "0.1.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "atom-easy-switch:toggle"
+  },
+  "repository": "https://github.com/atom/atom-easy-switch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0",
+    "minimatch": "^2.0.1",
+    "underscore-plus": "^1.6.6"
+  }
+}
